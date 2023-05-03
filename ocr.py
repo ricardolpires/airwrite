@@ -27,7 +27,7 @@ def abrir_imagem(letra):
     return None
 
 # Carrega uma imagem com palavras manuscritas
-img = cv2.imread('quadro.png')
+img = cv2.imread('palavras.png')
 
 # Verifica se a imagem foi carregada corretamente
 if img is None:

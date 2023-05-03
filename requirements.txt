@@ -1,4 +1,6 @@
 pygame
+pytesseract
+
 absl-py==1.4.0
 attrs==23.1.0
 cffi==1.15.1
