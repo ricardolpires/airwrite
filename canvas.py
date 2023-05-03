@@ -3,7 +3,7 @@ import mediapipe as mp
 import os
 import numpy as np
 import pygame
-from time import sleep
+#from time import sleep
 
 BRANCO = (255, 255, 255)
 PRETO = (0, 0, 0)
