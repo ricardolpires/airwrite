@@ -4,7 +4,7 @@ import os
 import cv2
 import pytesseract
 
-# Inicializa o pygame
+# Inicializa o pygame para poder usar a biblioteca
 pygame.init()
 
 # Define as dimensões da tela
