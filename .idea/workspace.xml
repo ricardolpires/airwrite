@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1db60f5b-d510-4017-9679-6c183b9b845e" name="Changes" comment="Ajustes na animacao." />
+    <list default="true" id="1db60f5b-d510-4017-9679-6c183b9b845e" name="Changes" comment="Ajustes gitignore.">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,6 +103,7 @@
       <updated>1683152905083</updated>
       <workItem from="1683152911639" duration="3509000" />
       <workItem from="1683166938149" duration="4105000" />
+      <workItem from="1683171312426" duration="337000" />
     </task>
     <task id="LOCAL-00001" summary="Beta Version.">
       <created>1683153156292</created>
@@ -141,7 +147,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683170640289</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Ajustes na animacao.">
+      <created>1683171441466</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683171441466</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Ajustes gitignore.">
+      <created>1683171650274</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1683171650274</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -163,7 +183,8 @@
     <MESSAGE value="update requirements.txt" />
     <MESSAGE value="Adicionados assets" />
     <MESSAGE value="Ajustes na animacao." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajustes na animacao." />
+    <MESSAGE value="Ajustes gitignore." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajustes gitignore." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/airwrite$main.coverage" NAME="main Coverage Results" MODIFIED="1683152936120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
