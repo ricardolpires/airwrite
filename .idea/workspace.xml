@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1db60f5b-d510-4017-9679-6c183b9b845e" name="Changes" comment="Ajustes gitignore.">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1db60f5b-d510-4017-9679-6c183b9b845e" name="Changes" comment="Ajustes gitignore." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +98,7 @@
       <updated>1683152905083</updated>
       <workItem from="1683152911639" duration="3509000" />
       <workItem from="1683166938149" duration="4105000" />
-      <workItem from="1683171312426" duration="337000" />
+      <workItem from="1683171312426" duration="830000" />
     </task>
     <task id="LOCAL-00001" summary="Beta Version.">
       <created>1683153156292</created>
@@ -161,7 +156,21 @@
       <option name="project" value="LOCAL" />
       <updated>1683171650274</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Ajustes gitignore.">
+      <created>1683171708127</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1683171708127</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Ajustes gitignore.">
+      <created>1683171773160</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1683171773160</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
