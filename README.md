@@ -18,7 +18,7 @@ Mão abaixada limpa a tela.
 Necessário instalar o Tesseract OCR para reconhecimento de texto.
 https://github.com/UB-Mannheim/tesseract/wiki
 
-Executar o arquivo Canvas.py pafa iniciar o programa.
+Executar primeiro o arquivo Canvas.py pafa iniciar o programa.
 depois o ocrt.py para iniciar o reconhecimento de texto.
 
 ```

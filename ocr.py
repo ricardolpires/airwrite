@@ -9,25 +9,25 @@ pygame.init()
 
 # Define as dimensões da tela
 WIDTH, HEIGHT = 800, 600
-screen = pygame.display.set_mode((WIDTH, HEIGHT)) # Cria a tela
+screen = pygame.display.set_mode((WIDTH, HEIGHT))
 
-def abrir_imagem(letra): # Função para abrir uma imagem
+def abrir_imagem(letra):
     # Concatena o caractere com a string 'imagem_' para formar o nome da imagem
-    nome_imagem = f"imagem_{letra}.png" # Concatena o caractere com a string 'imagem_' para formar o nome da imagem
+    nome_imagem = f"imagem_{letra}.png"
     # Verifica se a imagem existe
-    if os.path.exists(f'assets/{nome_imagem}'): # Verifica se a imagem existe
+    if os.path.exists(f'assets/{nome_imagem}'):
         # Abre a imagem usando a biblioteca pygame
-        imagem = pygame.image.load(f'assets/{nome_imagem}').convert_alpha() # Abre a imagem usando a biblioteca pygame
+        imagem = pygame.image.load(f'assets/{nome_imagem}').convert_alpha()
         # Define o tamanho da imagem
-        tamanho = (100, 100) # Define o tamanho da imagem
-        imagem = pygame.transform.scale(imagem, tamanho) # Define o tamanho da imagem
+        tamanho = (100, 100)
+        imagem = pygame.transform.scale(imagem, tamanho)
         # Retorna a imagem
         return imagem
 
     return None
 
 # Carrega uma imagem com palavras manuscritas
-img = cv2.imread('palavras.png') #
+img = cv2.imread('palavras.png')
 
 # Verifica se a imagem foi carregada corretamente
 if img is None:
@@ -76,10 +76,8 @@ while True:
     y += dy
 
     # Abre a imagem na posição atual
-    screen.fill((255, 255, 255)) #
+    screen.fill((255, 255, 255))
     screen.blit(imagem, (x, y))
 
     # Atualiza a tela
-    pygame.display.flip() # Atualiza a tela
-
-
+    pygame.display.flip()
