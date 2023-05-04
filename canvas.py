@@ -144,4 +144,3 @@ while True:
 cv2.imwrite('quadro.png', img_quadro)  # Salva o quadrado em um arquivo de imagem
 #cv2.destroyAllWindows()  # Fecha todas as janelas abertas
 #camera.release()  # Libera o acesso à câmera.
-

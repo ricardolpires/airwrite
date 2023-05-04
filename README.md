@@ -20,5 +20,3 @@ https://github.com/UB-Mannheim/tesseract/wiki
 
 Executar primeiro o arquivo Canvas.py pafa iniciar o programa.
 depois o ocrt.py para iniciar o reconhecimento de texto.
-
-```
