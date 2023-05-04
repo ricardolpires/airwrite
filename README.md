@@ -1,7 +1,8 @@
 # Projeto AirWrite
 Utilize os indicadores para escrever no ar com a webcam.
 
-
+Insruções de uso:
+```
 ##Mão 1:
 Dedo indicador levantado desenha, dedos fechados apagam.
         
@@ -17,3 +18,7 @@ Mão abaixada limpa a tela.
 Necessário instalar o Tesseract OCR para reconhecimento de texto.
 https://github.com/UB-Mannheim/tesseract/wiki
 
+Executar o arquivo Canvas.py pafa iniciar o programa.
+depois o ocrt.py para iniciar o reconhecimento de texto.
+
+```

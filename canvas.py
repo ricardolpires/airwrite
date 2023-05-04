@@ -21,9 +21,9 @@ maos = mp_maos.Hands()
 # Definindo a resolução da câmera e capturando o vídeo
 resolucao_x = 800
 resolucao_y = 600
-camera = cv2.VideoCapture(1)
-camera.set(cv2.CAP_PROP_FRAME_WIDTH, resolucao_x)
-camera.set(cv2.CAP_PROP_FRAME_HEIGHT, resolucao_y)
+camera = cv2.VideoCapture(0) # 0 para webcam integrada e 1 para webcam externa
+camera.set(cv2.CAP_PROP_FRAME_WIDTH, resolucao_x) # definindo a resolução
+camera.set(cv2.CAP_PROP_FRAME_HEIGHT, resolucao_y) # definindo a resolução
 
 # Criando uma imagem em branco para o quadro e definindo as propriedades do pincel
 img_quadro = np.ones((resolucao_y, resolucao_x, 3), np.uint8) * 255
@@ -144,5 +144,4 @@ while True:
 cv2.imwrite('quadro.png', img_quadro)  # Salva o quadrado em um arquivo de imagem
 #cv2.destroyAllWindows()  # Fecha todas as janelas abertas
 #camera.release()  # Libera o acesso à câmera.
-
 
